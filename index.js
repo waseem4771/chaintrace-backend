@@ -324,3 +324,8 @@ app.get('/', (req, res) => res.send("🚀 ChainTrace API Active"));
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`🚀 Server on port ${PORT}`));
+
+
+
+// Pehle se likhe hue app.listen ke neche ye likh den
+module.exports = app;
