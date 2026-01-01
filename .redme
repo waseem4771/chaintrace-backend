@@ -1,0 +1,24 @@
+chaintrace-backend/
+├── node_modules/ # Sab dependencies (Express, MySQL2, Cors, Dotenv)
+├── index.js # Main Server (DB Connection + Linking Logic + API Endpoints + Image Payload Handling)
+├── .env # Secret Credentials (Aiven Host, User, Password, Port)
+└── package.json # Backend Scripts (pnpm run dev) aur Metadata
+
+
+
+
+
+☁️ Cloud Database Layer (Infrastructure)
+Cloud Hosting: Aiven.io (Professional Cloud Provider)
+Database Engine: MySQL 8.0 (Relational Database)
+Hosting Infrastructure: DigitalOcean (Data center location: Bangalore/blr)
+Database Name: defaultdb
+Professional GUI Tool: MySQL Workbench (Laptop mein installed software cloud data ko manage aur live view karne ke liye)
+Security Method: SSL (Secure Sockets Layer) — Connection ko mahfooz banane ke liye takay data raste mein hack na ho sake.
+
+
+
+
+🔐 Admin Access (Credentials)
+User: admin
+Password: admin123
